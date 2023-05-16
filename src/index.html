@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Macondo&display=swap" rel="stylesheet">
+</head>
+<body class="flex">
+  <main>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <section class="flex">
+      <article>
+        <div id="scores-section-title" class="flex">
+          <h3>Recent scores</h3>
+          <button>Refresh</button>
+        </div>
+        <div class="display-section"></div>
+      </article>
+      <form action="#">
+        <h3>Add your score</h3>
+        <input class="name-input" type="text" placeholder="Your name" required>
+        <input class="score-input" type="number" placeholder="Your score" required>
+        <div class="btn-container flex"><button type="submit">Submit</button></div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
