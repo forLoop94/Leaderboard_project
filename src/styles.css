@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Macondo, 'Times New Roman', Times, serif;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+main {
+  border: 5px solid black;
+  padding: 2rem;
+}
+
+h3 {
+  margin-right: 1rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+section article, section form {
+  margin-right: 2rem;
+}
+
+input {
+  display: block;
+  margin: 1rem 0rem;
+  border: 3px solid black;
+  padding: 0.3rem;
+}
+
+button {
+  border-radius: 0px;
+  box-shadow: 3px 3px 2px black;
+  border: 3px solid black;
+  padding: 0.2rem;
+}
+
+.btn-container {
+  justify-content: end;
+}
