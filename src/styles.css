@@ -49,3 +49,14 @@ button {
 .btn-container {
   justify-content: end;
 }
+
+.display-section {
+  margin: 1rem 0rem;
+  border: 2px solid black;
+  overflow-y: scroll;
+  height: 120px;
+}
+
+.details-container {
+  padding: 0.2rem ;
+}
