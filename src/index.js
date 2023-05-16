@@ -18,7 +18,6 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   playerDetails(leaderboard, nameInput.value, scoreInput.value);
   render();
-})
+});
 
-render()
-
+render();

@@ -28,19 +28,20 @@ section {
   padding: 2rem;
 }
 
-section article, section form {
+section article,
+section form {
   margin-right: 2rem;
 }
 
 input {
   display: block;
-  margin: 1rem 0rem;
+  margin: 1rem 0;
   border: 3px solid black;
   padding: 0.3rem;
 }
 
 button {
-  border-radius: 0px;
+  border-radius: 0;
   box-shadow: 3px 3px 2px black;
   border: 3px solid black;
   padding: 0.2rem;
@@ -51,12 +52,12 @@ button {
 }
 
 .display-section {
-  margin: 1rem 0rem;
+  margin: 1rem 0;
   border: 2px solid black;
   overflow-y: scroll;
   height: 120px;
 }
 
 .details-container {
-  padding: 0.2rem ;
+  padding: 0.2rem;
 }
