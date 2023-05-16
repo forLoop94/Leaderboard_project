@@ -38,21 +38,15 @@
 
 ### Key Features <a name="key-features"></a>
 
-- [ ] **Adding a new item**
-- [ ] **Removing a selected item**
-- [ ] **Marking a selected item as complete**
-- [ ] **Removing all items marked as complete at once.**
+- [ ] **Usage of callbacks and promises**
+- [ ] **Usage of proper ES6 syntax**
+- [ ] **Usage of ES6 modules to write modular JavaScript**
+- [ ] **Usage of webpack to bundle JavaScript.**
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- N/A
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -72,7 +66,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:forLoop94/To-do-list.git
+  git clone git@github.com:forLoop94/Leaderbord_project.git
   npm install
 ```
 
@@ -81,9 +75,7 @@ Clone this repository to your desired folder:
 To run the project, execute the following command:
 
 ```sh
-  Open index.html in browser
-  or
-  open with Live server in Vscode
+  npm start
 ```
 
 ### Run tests
@@ -110,7 +102,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Reordering a selected item (as drag-and-drop)**
+- [ ] **Usage of Async Await to make API calls**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +110,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Mahamadou-Nouridine/My-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/forLoop94/Leaderboard_project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +122,7 @@ If you like this project give me a follow and/or a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Yordi and Jemba - my coding partners
+- My coding partners
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
