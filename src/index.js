@@ -1,22 +1,21 @@
 import './styles.css';
-import playerDetails from './modules/playerDetails.js';
 import render from './modules/render.js';
-
-let leaderboard = [];
-
-const details = localStorage.getItem('leaderboard');
-const allDetails = JSON.parse(details);
-if (details) {
-  leaderboard = allDetails;
-}
+import postDetails from './modules/postDetails.js';
 
 const form = document.querySelector('form');
 const nameInput = document.querySelector('.name-input');
 const scoreInput = document.querySelector('.score-input');
+const refresh = document.querySelector('.refresh');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  playerDetails(leaderboard, nameInput.value, scoreInput.value);
+  postDetails(nameInput.value, scoreInput.value);
+  nameInput.value = '';
+  scoreInput.value = '';
+});
+
+refresh.addEventListener('click', () => {
+  document.querySelector('.display-section').innerHTML = '';
   render();
 });
 
