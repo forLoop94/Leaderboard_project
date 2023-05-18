@@ -8,10 +8,10 @@ export default () => {
       const detailsContainer = document.createElement('div');
       detailsContainer.className = 'details-container';
       if (key % 2 === 0) {
-        detailsContainer.innerHTML = `<div>${obj.user}: ${obj.score}</div>`;
-        detailsContainer.style.backgroundColor = 'rgb(240, 240, 240';
+        detailsContainer.innerHTML = `<i class='fa fa-user'></i><span>${obj.user}: ${obj.score}</span>`;
+        detailsContainer.style.backgroundColor = '#e9f3f7';
       } else {
-        detailsContainer.innerHTML = `<div>${obj.user}: ${obj.score}</div>`;
+        detailsContainer.innerHTML = `<i class='fa fa-user'></i><span>${obj.user}: ${obj.score}</span>`;
         detailsContainer.style.backgroundColor = 'white';
       }
       display.appendChild(detailsContainer);
