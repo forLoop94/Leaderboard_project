@@ -8,6 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Macondo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body class="flex">
   <main>
@@ -17,15 +21,21 @@
     <section class="flex">
       <article>
         <div id="scores-section-title" class="flex">
-          <h3>Recent scores</h3>
+          <p>Recent scores</p>
           <button type="button" class="refresh">Refresh</button>
         </div>
         <div class="display-section"></div>
       </article>
       <form action="#">
         <h3>Add your score</h3>
-        <input class="name-input" type="text" placeholder="Your name..." required>
-        <input class="score-input" type="number" placeholder="Your score..." required>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input class="form-control name-input" type="text" placeholder="Your name..." required>
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+          <input class="form-control score-input" type="number" placeholder="Your score..." required>
+        </div>
         <div class="btn-container flex"><button type="submit">Submit</button></div>
       </form>
     </section>

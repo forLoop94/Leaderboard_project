@@ -20,23 +20,22 @@ main {
   padding: 2rem;
 }
 
-h3 {
+#scores-section-title p {
   margin-right: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 section {
   padding: 2rem;
 }
 
-section article,
-section form {
-  margin-right: 2rem;
+section article {
+  margin: 2rem 2rem 2rem 0;
 }
 
-input {
-  display: block;
-  margin: 1rem 0;
-  border: 3px solid black;
+.input-group {
+  margin: 2rem 0;
   padding: 0.3rem;
 }
 
@@ -45,6 +44,11 @@ button {
   box-shadow: 3px 3px 2px black;
   border: 3px solid black;
   padding: 0.2rem;
+  background-color: white;
+}
+
+button:hover {
+  background-color: #e9f3f7;
 }
 
 .btn-container {
@@ -60,4 +64,9 @@ button {
 
 .details-container {
   padding: 0.2rem;
+}
+
+span {
+  margin-left: 10px;
+  height: 10px;
 }
